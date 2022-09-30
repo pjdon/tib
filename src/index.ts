@@ -1,4 +1,4 @@
-import * as acorn from 'acorn';
+import acorn from 'acorn';
 
 const greetingTarget: string = "World";
 
@@ -9,5 +9,6 @@ const msg = "Hello World!";
 console.log(msg);
 `;
 const result = acorn.parse(code, {ecmaVersion: "latest"});
+console.log(result);
 
 console.log("Done");

@@ -3,6 +3,8 @@
     "sourceMap": true,
     "outDir": "./lib",
     "strict": true,
+    "moduleResolution": "node",
+    "target": "ES2022",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
   },
